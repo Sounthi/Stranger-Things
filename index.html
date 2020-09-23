@@ -10,12 +10,18 @@ h2 { font-family: sans-serif; font-size:24px; font-style:bold;}
 p {font-family: sans-serif; font-size:16px; font-style:normal;}
 img {display:block; width:100%;}
 
-div.container {
+.container {
                 margin-bottom: 20px;
                 margin-top:20px;
                 border-radius: 50%;
                 width: 100%;
+                transition: all 0.3s ease-in;
             }
+
+.container:hover {
+                transform: scale(1.05);
+}
+
 
 div.interieur { padding-bottom:20px;
                 padding-top:10px;
